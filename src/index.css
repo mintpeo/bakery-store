@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+  scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #343a40;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  width: 50px;
+  height: auto;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-menu a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-menu a.active {
+  color: #000; /* Thay đổi màu sắc thành màu đen khi được chọn */
+  border-bottom: 2px solid #fff;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-right img {
+  width: 30px;
+  height: auto;
+}
+
+.navbar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #0056b3;
+}
+
+/* Header styling */
+.header {
+  height: 70vh; /* Tăng chiều cao để có thêm không gian */
+  background: url('Baking-header.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.header-contents {
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.header-contents h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-contents p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-contents button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header-contents button:hover {
+  background-color: #0056b3;
+}
+
+/* Explore Menu styling */
+.explore-menu {
+  padding: 2rem;
+  text-align: center;
+  margin-top: -190px; /* Di chuyển phần explore menu lên trên */
+}
+
+.explore-menu h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.explore-menu-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.explore-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.explore-menu-list-item {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.explore-menu-list-item:hover {
+  transform: scale(1.05);
+}
+
+.explore-menu-list-item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.explore-menu-list-item p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.explore-menu-list-item p.active {
+  color: #007bff;
+  font-weight: bold;
+}
