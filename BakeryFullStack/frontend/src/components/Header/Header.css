@@ -27,10 +27,30 @@
 }
 .header-contents button{
     background-color: white;
-    font-weight: normal;
+    font-weight: 500;
     color: #747474;
     padding: 1vw 2.3vw;
     border: none;
     font-style: max(1vw, 13px);
     border-radius: 50px;
+}
+@media (max-width: 1050px) {
+    .header{
+        height: 38vw;
+    }
+    .header-contents{
+        min-width: 45%;
+    }
+}
+@media (max-width: 750px) {
+    
+    .header-contents{
+        min-width: 55%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
 }
