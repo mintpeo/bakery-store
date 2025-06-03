@@ -2,8 +2,8 @@ package com.example.fullstackweb.service;
 
 import com.example.fullstackweb.models.*;
 import com.example.fullstackweb.repository.*;
-import com.example.fullstackweb.request.CheckOutRequest;
 import com.example.fullstackweb.request.CheckOutItemRequest;
+import com.example.fullstackweb.request.CheckOutRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

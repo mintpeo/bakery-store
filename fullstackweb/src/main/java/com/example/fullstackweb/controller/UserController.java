@@ -4,16 +4,11 @@ import com.example.fullstackweb.dto.UserDTO;
 import com.example.fullstackweb.models.User;
 import com.example.fullstackweb.repository.UserRepository;
 import com.example.fullstackweb.service.UserService;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-
-import static com.example.fullstackweb.models.Status.*;
+import static com.example.fullstackweb.models.Status.API;
 
 @RestController
 @RequestMapping(path = "/users")

@@ -3,8 +3,6 @@ package com.example.fullstackweb.models;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
-import java.util.List;
-
 @Entity
 @Table(name = "bank_cards")
 public class BankCard {

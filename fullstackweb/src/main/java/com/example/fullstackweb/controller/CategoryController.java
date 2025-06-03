@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.example.fullstackweb.models.Status.*;
+import static com.example.fullstackweb.models.Status.API;
 
 @RestController
 @RequestMapping(path = "/cate")
